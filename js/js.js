@@ -100,7 +100,7 @@ function login() {
         document.getElementById("loginResult").innerHTML = '<span class="text-success m-3">Welcome, ' + foundUser.name + '!</span>';
 
         setTimeout(function () {
-            window.location.href = "home.html";
+            window.location.href = "/Assignment10 JS/home.html";
         }, 2000);
         return true;
     } else {
@@ -114,7 +114,7 @@ function logout() {
     localStorage.removeItem('username');
 
 
-    window.location.href = "sign-in.html";
+    window.location.href = "/Assignment10 JS/sign-in.html";
 }
 
 
