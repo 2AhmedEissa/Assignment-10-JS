@@ -120,6 +120,6 @@ function logout() {
 
 var storedUsername = localStorage.getItem('username');
 if (storedUsername) {
-    document.getElementById('userName').innerText = ' Welcome ' + storedUsername;
+    document.getElementById('userName').innerText = ' Welcome, '+ storedUsername + '!';
 }
 
