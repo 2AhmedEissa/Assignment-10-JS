@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  color: #17a2b8;
+}
+
+.shadowbox {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+input::placeholder {
+  color: #A8B4B6 !important;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+button:hover {
+  background-color: #17A2B8 !important;
+  color: white !important;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.log-out:hover {
+  background-color: #FFC107;
+  color: white !important;
+}
