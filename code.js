@@ -60,7 +60,7 @@ function signUp() {
     signupPass.value = "";
 
     setTimeout(function tosignin() {
-        window.location.href = "/Assignment10 JS/sign-in.html";
+        window.location.href = "./sign-in.html";
     }, 2000);
 
 
