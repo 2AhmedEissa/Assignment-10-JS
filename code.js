@@ -47,6 +47,17 @@ function signUp() {
         password: signupPass.value
     };
 
+    var emailFormat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailFormat.test(newUser.email)) {
+        document.getElementById("signupresult").innerHTML = '<span class="text-danger m-3"> Please enter a valid email address! </span>';
+        return false;
+    }
+
+    if (newUser.name.length < 3 || newUser.password.length < 3) {
+        document.getElementById("signupresult").innerHTML = '<span class="text-danger m-3"> Username and password must have at least 3 characters! </span>';
+        return false;
+    }
+
     if (isEmailExist(newUser.email)) {
         document.getElementById("signupresult").innerHTML = '<span class="text-danger m-3"> Email already exists! </span>';
         return false;
@@ -63,9 +74,9 @@ function signUp() {
         window.location.href = "./sign-in.html";
     }, 2000);
 
-
     return true;
 }
+
 
 //===================================Log in==============================================
 
@@ -76,7 +87,9 @@ function isloginExist() {
     } else {
         return true
     }
+
 }
+
 
 function login() {
     if (!isloginExist()) {
@@ -120,6 +133,5 @@ function logout() {
 
 var storedUsername = localStorage.getItem('username');
 if (storedUsername) {
-    document.getElementById('userName').innerText = ' Welcome, '+ storedUsername + '!';
+    document.getElementById('userName').innerText = ' Welcome, ' + storedUsername + '!';
 }
-
