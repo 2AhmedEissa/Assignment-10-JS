@@ -39,10 +39,6 @@ button:hover {
   color: white !important;
 }
 
-p a:hover {
-  text-decoration: underline;
-}
-
 .log-out:hover {
   background-color: #e30c2c;
   color: white !important;
