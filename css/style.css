@@ -8,7 +8,7 @@ a {
 }
 
 body {
-  background-color: #1b1d31;
+  background-color: #1C1C1E;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -18,7 +18,7 @@ h1 {
 
 .shadowbox {
   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
-  background-color: #24253c;
+  background-color: black;
 }
 
 input {
@@ -35,20 +35,20 @@ input::placeholder {
 }
 
 button:hover {
-  background-color: #e30c2c !important;
+  background-color: #CF0A0A !important;
   color: white !important;
 }
 
 .log-out:hover {
-  background-color: #e30c2c;
+  background-color: #CF0A0A;
   color: white !important;
 }
 
 .btn {
-  color: #e30c2c !important;
-  border-color: #e30c2c !important;
+  color: #CF0A0A !important;
+  border-color: #CF0A0A !important;
 }
 
 .transfer-link {
-  color: #e30c2c !important;
+  color: #CF0A0A !important;
 }
