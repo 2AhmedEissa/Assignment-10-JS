@@ -8,16 +8,17 @@ a {
 }
 
 body {
-  background: #24353f;
-  font-family: 'Titillium Web', sans-serif;
+  background-color: #1b1d31;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1 {
-  color: #17a2b8;
+  color: white !important;
 }
 
 .shadowbox {
   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  background-color: #24253c;
 }
 
 input {
@@ -26,7 +27,7 @@ input {
 }
 
 input::placeholder {
-  color: #A8B4B6 !important;
+  color: #a8b4b6 !important;
 }
 
 .w-65 {
@@ -34,7 +35,7 @@ input::placeholder {
 }
 
 button:hover {
-  background-color: #17A2B8 !important;
+  background-color: #e30c2c !important;
   color: white !important;
 }
 
@@ -43,6 +44,15 @@ p a:hover {
 }
 
 .log-out:hover {
-  background-color: #FFC107;
+  background-color: #e30c2c;
   color: white !important;
+}
+
+.btn {
+  color: #e30c2c !important;
+  border-color: #e30c2c !important;
+}
+
+.transfer-link {
+  color: #e30c2c !important;
 }
